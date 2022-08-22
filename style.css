@@ -1,0 +1,168 @@
+body
+{
+    background-color: #000;
+    overflow-x: hidden;
+}
+/* navigation bar */
+.navbar
+{
+position: absolute;
+    margin-left: 800px;
+    margin-top: -50px;
+}
+.nav-item
+{
+    padding-right: 40px;
+}
+/* Hero section */
+.person
+{
+    width: 100%;
+}
+.Hero
+{
+    margin-top: 9rem;
+}
+.Hero-para
+{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+  
+}
+.Hero-Heading
+{
+    color: #fff;
+    font-size: 1.563rem;
+    font-weight: 900;
+}
+.Hero-para1
+{
+    color: #fff;
+    font-size: 0.75rem;
+}
+.Hero-btn
+{
+    background-color: #bf3325;
+    color: #fff;
+    width: 7.5rem;
+    height: 3.125rem;
+}
+.CardBack
+{
+    height: 43.75rem;
+    text-align: center;
+    z-index: -1;
+   background-color: #121a1e;
+ color: red;
+}
+.CardBack-item
+{
+    margin-top: 450px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.Services
+{
+    /* position: absolute;
+    left: -20rem; */
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    gap: 5px;
+
+}
+.Service
+{
+    height: 300px;
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+    background-color: #232324;
+}
+.productdesign
+{
+    background-color: #bf3325;
+}
+.Service :last-child
+{
+    color: #bf3325;
+}
+
+/* Achievment */
+.right-div
+{
+    /* margin-left: -12rem; */
+}
+.Achievments
+{
+ position: relative;
+ /* top: 62rem; */
+ left: 0rem;
+}
+.Achievment-item
+{
+    margin: 0.938rem;
+    padding: 0.625rem;
+    background-color: #232324;
+    color: #bf3325;
+    text-align: center;
+    margin-top: 0.938rem;
+    font-size: 1.563rem;
+    font-weight: 900;
+}
+.Achievment-item span
+{
+    font-size: 0.938rem;
+}
+/* .project
+{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.projbtn
+{
+    margin-left: 370px;
+} */
+.project-item
+{
+    font-size: 2.188rem;
+    font-weight: 900;
+}
+.project-card
+{
+  height: 18rem;
+  width: 100%;
+  text-align: center;
+  /* margin-top: 0.625rem; */
+  margin: 0.313rem;
+  background-color: #232324;
+
+}
+.project-card img
+{
+    width: 85%;
+    background-color: #232324;
+    margin-top: 1.875rem;
+}
+.project-card-more
+{
+    color: #bf3325;
+}
+/* collaboration */
+.collaboration
+{
+    /* height: 15.625rem; */
+    background-color: #232324;
+}
+.collaboration-item{
+    columns: white;
+}
+.btmnav
+{
+ display: flex;
+}
+.btmfooter
+{
+    background-color: #232324;
+}
